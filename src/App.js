@@ -9,7 +9,7 @@ import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 
 function App() {
     return (
-      <BrowserRouter basename='/reactjs38100'>
+      <BrowserRouter basename='/E-commerce-DeportClub'>
         <NavBar />
         <Routes>
           <Route path='/' element={<ItemListContainer greeting={'Bienvendos a DeportClub'} />} />
